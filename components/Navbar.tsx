@@ -35,7 +35,7 @@ const toggleAccountMenu = useCallback(()=>{
 },[]);
 
    return (
-    <nav className="w-full fixed 2-40">
+    <nav className="w-full fixed z-40">
    <div className={`
    px-4
    md:px-16
