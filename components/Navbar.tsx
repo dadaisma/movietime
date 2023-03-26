@@ -78,7 +78,7 @@ const toggleAccountMenu = useCallback(()=>{
                </div>
                <div onClick={toggleAccountMenu} className='flex flex-row items-center gap-2 cursor-pointer relative'>
                <div className='w-6 h-6 lg:w-10 lg:h-10 rounded-md overflow-hidden'>
-                  <img src='/images/default-green.png'></img>
+                  <img src='/images/default-green.png' alt='dropdown'></img>
                </div>
                <BsChevronDown className={
                   `w-4 text-white fill-white transition ${showAccountMenu ? 'rotate-180' : 'rotate-0'}`} />
